@@ -399,4 +399,16 @@ a:focus-visible{
   outline: 3px solid rgba(11, 74, 162, 0.30);
   outline-offset: 3px;
   border-radius: 10px;
+
+}
+
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main{
+  flex: 1;
 }
